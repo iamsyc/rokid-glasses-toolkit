@@ -1,0 +1,136 @@
+{
+  "schema": 1,
+  "observation_date": "2026-10-21",
+  "physical_device_count": 1,
+  "provenance": "Sanitized summary of reference-device test records dated 2026-10-21. Original records are excluded from the public repository.",
+  "helper": {
+    "bytes": 41297,
+    "sha256": "a861b9d8509eddd3b538afbaddf159112e41f219519ea38c74d59e26fb24645f",
+    "certificate_sha256": "03d2f94684df0a105b0df893ec3bf1d22f0a384a4d1ae8f0864f72f7d54c118c",
+    "version_name": "1.7",
+    "version_code": 8
+  },
+  "ota": {
+    "source_version": "1.27.009-20261014-150203:user/release-keys",
+    "target_version": "1.28.001-20261020-150101:userdebug/release-keys",
+    "native_metadata_verification_passed": true,
+    "application_result": "kSuccess (0)",
+    "updated_need_reboot": true,
+    "source_slot": "_a",
+    "booted_slot": "_b",
+    "slot_marked_successful": true,
+    "final_snapshot_merge_state": "none",
+    "adb_root_uid": 0,
+    "adb_uid_after_reboot_before_root": 2000,
+    "bootloader_unlocked_before_work": true,
+    "bootloader_unlock_performed": false,
+    "magisk_installed": false,
+    "manual_boot_or_block_image_flash": false
+  },
+  "changes": {
+    "diagnostics": {
+      "vendor.cnss_diag": "stopped",
+      "logcatd": "running",
+      "rotated_log_count_before": 256,
+      "rotated_log_count_after": 8,
+      "rotate_kbytes": 2048,
+      "old_log_files_deleted": false,
+      "comparison": {
+        "before_seconds": 20.92,
+        "before_cnss_one_core_cpu_percent": 6.55,
+        "before_write_bytes_delta": 6627328,
+        "after_seconds": 20.66,
+        "after_cnss_process_absent": true,
+        "after_fw_and_driver_log_files_unchanged": true,
+        "overall_cpu_or_battery_savings_claimed": false
+      }
+    },
+    "idle": {
+      "light": true,
+      "deep": false,
+      "added_exemptions": [
+        "com.rokid.os.sprite.assistserver",
+        "com.rokid.cxrservice"
+      ],
+      "existing_helper_exemption_preserved": true,
+      "forced_light_idle_wifi_and_adb_test_passed": true,
+      "forced_mode_cleared": true
+    },
+    "display": {
+      "helper": "Black background, muted green text and outlined controls",
+      "system_settings": "Black background, muted green large switch; verified in a freshly restarted Settings process",
+      "brightness_unchanged": 136,
+      "presets": {
+        "20_percent": {
+          "observed": 50,
+          "expected": 50,
+          "passed": true
+        },
+        "35_percent": {
+          "observed": 89,
+          "expected": 89,
+          "passed": true
+        },
+        "restore_original": {
+          "observed": 136,
+          "expected": 136,
+          "passed": true
+        },
+        "verification": "Clicked enabled controls using device UI hierarchy; read back settings system screen_brightness after each action"
+      },
+      "native_overlays": [
+        "RokidBlackBackground",
+        "RokidBlackFloating",
+        "RokidGreenAccent",
+        "RokidBlackSurface",
+        "RokidBlackVariant",
+        "RokidDimSwitch"
+      ],
+      "system_or_vendor_partitions_modified": false,
+      "physical_panel_nodes_written": false
+    },
+    "helper_system_controls": {
+      "version": "1.7",
+      "entry": "系统优化与恢复",
+      "supported_actions": [
+        "Apply all or toggle logging/light idle/system colors individually",
+        "Refresh actual privileged state",
+        "Save current state snapshot",
+        "Restore original optimization baseline"
+      ],
+      "background": "Boot/package receiver and bounded existing Wi-Fi checks; no persistent polling service",
+      "privileged_execution": "Fixed helper commands through existing localhost ADB and system su; does not require a host adb root before automatic boot apply",
+      "magisk_installed": false
+    }
+  },
+  "verification": {
+    "same_certificate_in_place_upgrade": true,
+    "permissions_and_wifi_history_preserved": true,
+    "complete_restore_test_passed": true,
+    "logging_toggle_off_on": true,
+    "snapshot_saved_and_read_back": true,
+    "baseline_unchanged_after_reboot": true,
+    "automatic_profile_verified_before_host_adb_root": true,
+    "automatic_profile_apply_boot_seconds": 41,
+    "last_observed_wireless_adb_reconnect_seconds": 62.9,
+    "main_ui_protocol_response": true,
+    "network_page_internet_validated": true,
+    "photo_list_loaded_but_empty": true,
+    "settings_visual_checked": true
+  },
+  "accepted_configuration": {
+    "tcp_adb_5555_key_authentication": false,
+    "vpn_or_network_configuration_added": false,
+    "oem_engineering_selinux": "Permissive"
+  },
+  "limits": [
+    "No controlled long-duration battery-life comparison; CPU and file-write observations do not establish a battery-life percentage.",
+    "Phone-side voice/Bluetooth workflows were not interactively exercised; original services and the camera HAL remain registered/running.",
+    "Helper 1.7 validation used an empty photo list; preview, export and deletion were not regression-tested in that version.",
+    "Screenshots and resource values establish rendered UI changes, not measured optical output.",
+    "Fresh consumer-device initial ADB enablement is not established.",
+    "Other regions, hardware SKUs, bootloader-locked devices and firmware starting points are not qualified.",
+    "No firmware downgrade or recovery-flashing route was tested.",
+    "No current live-device state is implied by historical observations."
+  ]
+}

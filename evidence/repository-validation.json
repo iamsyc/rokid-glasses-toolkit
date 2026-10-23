@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "date": "2026-10-23",
+  "device_contacted_during_export": false,
+  "historical_source_files_byte_identical": true,
+  "source_file_count": 10,
+  "published_apk_sha256": "a861b9d8509eddd3b538afbaddf159112e41f219519ea38c74d59e26fb24645f",
+  "fresh_development_build_passed": true,
+  "fresh_build_apksigner_verified": true,
+  "rebuilt_dex_identical_to_published_apk": true,
+  "rebuilt_binary_manifest_identical_to_published_apk": true,
+  "signing_keys_in_export": false,
+  "offline_tests_passed": 10,
+  "public_text_scan_passed": true,
+  "screenshots_visually_reviewed": 3,
+  "pinned_oem_ota_offline_hash_and_wholefile_signature_verified": true,
+  "new_device_native_verification_performed": false,
+  "github_actions_run": false,
+  "limits": [
+    "New host CLI was tested offline and with mocked ADB reads; not exercised against a physical device.",
+    "Original device observations are from 2026-10-21. Fresh build used a disposable development signing key.",
+    "Privacy scan is a limited pattern check plus manual review, not an exhaustive secret-detection guarantee."
+  ],
+  "tracked_file_count": 33,
+  "tracked_java_source_count": 9,
+  "apk_dex_private_pattern_check_passed": true,
+  "markdown_internal_links_passed": true,
+  "git_staged_whitespace_check_passed": true
+}

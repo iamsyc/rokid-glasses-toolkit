@@ -1,0 +1,13 @@
+app/build/
+app/dist/
+app/local-signing.p12
+*.p12
+*.jks
+*.keystore
+*.key
+adbkey*
+/work/
+/local/
+__pycache__/
+*.pyc
+.DS_Store

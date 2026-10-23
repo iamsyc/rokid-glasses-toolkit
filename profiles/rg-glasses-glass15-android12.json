@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "id": "rg-glasses-glass15-android12",
+  "device": {
+    "ro.product.model": "RG-glasses",
+    "ro.product.name": "glasses",
+    "ro.product.device": "glasses",
+    "ro.board.platform": "neo",
+    "ro.build.version.sdk": "32"
+  },
+  "tested_source_fingerprints": [
+    "Rokid/glasses/glasses:12/SKQ1.240613.001/1.27.009-20261014-150203:user/release-keys"
+  ],
+  "ota": {
+    "version": "1.28.001-20261020-150101",
+    "filename": "RVE01-ota-1.28.001-20261020-150101.zip",
+    "bytes": 1117929620,
+    "sha256": "964648a3edb1d9355a087bcb130d72ff0036a399533537a3005750c555313d34",
+    "post_build": "Rokid/glasses/glasses:12/SKQ1.240613.001/1.28.001-20261020-150101:userdebug/release-keys",
+    "pre_device": "glasses",
+    "ota_type": "AB",
+    "trusted_ota_certificate_der_sha256": "9fc9844e46a7c2794ba561ee418e29f37add9604e0825e6b1c877007ee87a993",
+    "discovery_index": "https://rokid.andersmadsen.dk/firmware",
+    "origin_without_authorization_query": "https://rokid-factory-ota.oss-cn-hangzhou.aliyuncs.com/dailybuild/glass15/1.28.001-20261020-150101/RVE01-ota-1.28.001-20261020-150101.zip",
+    "download_included": false
+  },
+  "apply_prerequisites": {
+    "ro.boot.verifiedbootstate": "orange",
+    "ro.boot.vbmeta.device_state": "unlocked",
+    "minimum_battery_percent": 50,
+    "usb_power_required": true,
+    "minimum_data_available_kib": 6291456
+  },
+  "helper": {
+    "package": "local.syc.rokidadb",
+    "version_name": "1.7",
+    "version_code": 8,
+    "sha256": "a861b9d8509eddd3b538afbaddf159112e41f219519ea38c74d59e26fb24645f",
+    "certificate_sha256": "03d2f94684df0a105b0df893ec3bf1d22f0a384a4d1ae8f0864f72f7d54c118c"
+  },
+  "qualification": {
+    "physical_device_count": 1,
+    "region_sku": "not independently established",
+    "bootloader_lock_change_performed": false,
+    "cross_region_installation_verified": false,
+    "long_duration_battery_gain_verified": false,
+    "fresh_device_initial_adb_enablement_verified": false
+  }
+}

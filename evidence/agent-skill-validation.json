@@ -1,0 +1,61 @@
+{
+  "schema": 1,
+  "date": "2026-10-23",
+  "skill_name": "rokid-glasses",
+  "skill_path": ".agents/skills/rokid-glasses",
+  "scope": "Repository handoff skill, routes, read-only context lookup and documentation; no Android application changes.",
+  "skill_creator_quick_validate_passed": true,
+  "ui_metadata_validated": true,
+  "implicit_invocation_enabled_by_default": true,
+  "total_offline_tests_passed": 20,
+  "agent_context_tests_passed": 10,
+  "task_routes_validated": [
+    "overview",
+    "wifi",
+    "helper",
+    "ota",
+    "root",
+    "optimize",
+    "publish"
+  ],
+  "nested_workdir_lookup_passed": true,
+  "relocated_checkout_and_detached_skill_passed": true,
+  "explicit_invalid_repository_fails_without_fallback": true,
+  "empty_path_context_bootstrap_passed": true,
+  "local_markdown_links_passed": true,
+  "public_tree_check_passed": true,
+  "live_device_operations_performed": false,
+  "independent_agent_behavior_evaluated": false,
+  "github_actions_run": false,
+  "global_skill_install_performed": false,
+  "official_discovery_reference": "https://developers.openai.com/codex/skills/",
+  "official_agent_instructions_reference": "https://developers.openai.com/codex/guides/agents-md/",
+  "limitations": [
+    "Offline tests validate resource routing, portability and structural invariants. They do not prove an independent agent will complete live hardware procedures.",
+    "The complete toolkit checkout is still required when installing the skill separately.",
+    "Historical physical-device compatibility and firmware availability limitations remain unchanged."
+  ],
+  "handoff_file_hashes": {
+    "AGENTS.md": "ef77d6813272a1e99a1e200d2fa3408336e4251adba1bd261d361f0b6d2fbce6",
+    "docs/AGENT_USAGE.md": "65034a4bd252cc7fee1214aedf4f59262398f6365aa7048162a19922c4317961",
+    ".agents/skills/rokid-glasses/SKILL.md": "600a0f82def97a86cf55dcd81a96e283a63dd7993971ea114244b42842ba3fd5",
+    ".agents/skills/rokid-glasses/agents/openai.yaml": "a6b87c6b827ee13e229574f654983df23dd95e260f9c8b8ebe6659a3c95521f0",
+    ".agents/skills/rokid-glasses/references/acceptance.md": "cb1bf567452d1708488a6ccade34ee7d3c40093ac2e17850f120e223efc69e5f",
+    ".agents/skills/rokid-glasses/references/diagnosis.md": "a71c8b0ab35069d5ee763a151fce48b3f800d83c0f1c37d2f1da99cbcb461e7d",
+    ".agents/skills/rokid-glasses/references/workflows.json": "8ae0bc381eba3e9be9f77f57323b658dc7368ab4dd8917b3299210d175db94b0",
+    ".agents/skills/rokid-glasses/scripts/context.py": "97a5478d27ad911e14b3fdf1201c68fd5e077b6a08eb94c9c1cb467c79b38b61"
+  },
+  "documentation_review": {
+    "date": "2026-10-23",
+    "audience": "Repository users, AI agents and maintainers.",
+    "reference_device_and_target_device_terminology": true,
+    "personal_conversation_references_removed": true,
+    "deployment_command_blocks_preserved": true,
+    "recorded_device_measurements_preserved": true,
+    "agent_context_tests_passed": 10,
+    "skill_structure_validation_passed": true,
+    "punctuation_checks_passed": true,
+    "local_links_passed": true,
+    "public_tree_check_passed": true
+  }
+}

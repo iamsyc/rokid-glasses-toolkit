@@ -1,0 +1,4 @@
+interface:
+  display_name: "Rokid 眼镜工程"
+  short_description: "复现 Rokid 联网、助手、签名 OTA、root、优化与恢复的已验证流程"
+  default_prompt: "使用 $rokid-glasses 核验目标设备的硬件和固件，再按授权范围部署并验收匹配的功能。"

@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "profile": "rg-glasses-glass15-android12",
+  "ota_sha256": "964648a3edb1d9355a087bcb130d72ff0036a399533537a3005750c555313d34",
+  "bytes": 1117929620,
+  "payload_offset": 3206,
+  "payload_size": 1117923128,
+  "payload_metadata_bytes": 91480,
+  "post_build": "Rokid/glasses/glasses:12/SKQ1.240613.001/1.28.001-20261020-150101:userdebug/release-keys",
+  "hash_checks_passed": true,
+  "wholefile_signature_verified_with_pinned_device_certificate": true,
+  "native_device_applicability_verified": false,
+  "device_updated": false
+}

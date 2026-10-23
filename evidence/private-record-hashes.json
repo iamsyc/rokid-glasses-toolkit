@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "purpose": "Provenance hashes only; raw records contain private data and are not public. Hashes do not independently prove all summarized claims.",
+  "records": [
+    {
+      "basename": "optimization-report.json",
+      "sha256": "6bf2b5c6eddabec1abf4308a6d69b200e4d30e4fa442542d946b3a876dd62152",
+      "raw_included": false
+    },
+    {
+      "basename": "diagnostic-comparison.json",
+      "sha256": "8b85a3662695de0b8d1a4203c997c32fdd1a920bc3f15bca24278521de35fe80",
+      "raw_included": false
+    },
+    {
+      "basename": "restore-selftest-state.txt",
+      "sha256": "53a12e0a203f04b038aa7c005b57b0de825d0f580efa0f6ba6691a7e5f94bac9",
+      "raw_included": false
+    },
+    {
+      "basename": "boot-profile-before-any-adb-root.txt",
+      "sha256": "dedc0b14ba4a044e438da39c7574c6bf96f7a821422b94880cd5f20f82c4d29f",
+      "raw_included": false
+    },
+    {
+      "basename": "full-verification.json",
+      "sha256": "936df72501f579a13bc4941430732da001806a9783018918164b9bf3caa581d8",
+      "raw_included": false
+    },
+    {
+      "basename": "deployment-report.json",
+      "sha256": "f0832fded943c6383a62148152a4511d4cf9046b31fe8dd230040e7bda2ddd31",
+      "raw_included": false
+    },
+    {
+      "basename": "native-verify.json",
+      "sha256": "8b3901eb1ede15a6a153284195bc04ffc6966d5935ce02f33aae3774b88c3931",
+      "raw_included": false
+    },
+    {
+      "basename": "apply-update-engine.log",
+      "sha256": "84ea4135cb849caf04b9ccd19b683d75ac3139725596f79964d10dc15c26e718",
+      "raw_included": false
+    },
+    {
+      "basename": "snapshot-merge-complete.json",
+      "sha256": "98b073588b67eb126d86a3749b5e6167140e50a76188f9f3202d02610351e82e",
+      "raw_included": false
+    }
+  ]
+}
